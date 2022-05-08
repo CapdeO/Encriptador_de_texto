@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Encriptador de Texto</title>
+	
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<header>
+		<section class="caja">
+			<img id="logo" src="logo.png">
+			<h1 class="titulo-principal">Encriptador de texto</h1>
+		</section>
+	</header>
+
+	<section class="historia">
+
+		<section class="parte1">
+		<p>Bienvenidos al año 2552, tiempo en donde los viajes estelares no son un problema, pero 
+			sí la seguridad de la comunicación a través del espacio. ¡La galaxia está
+		 llena de bandidos dispuestos a interceptar señales y robar información! La especia es 
+		 el recurso más preciado por estos bandidos, y es por eso que están dispuestos a hacer 
+		 cualquier cosa para conseguirla. Incluso romper la privacidad de todo tipo de comunicación
+		 enviada de un pársec a otro.</p>
+		 <img id="capitan-polaris" src="1.jpg">
+		</section>
+		
+		<section class="parte2">
+		<img id="teniente" src="2.jpg">
+		<p>Pero en <b>Alura Comunicaciones</b> tenemos la solución. Nuestro sistema de encriptado es el más 
+		 seguro de toda la galaxia, y nuestros años de trayectoria son una prueba 
+		 fehaciente de ello. No dudes en utilizar nuestro servicio de máxima seguridad para enviar 
+		 tus mensajes a través del hiperespacio.
+		 <br><br>
+		 Luego de seleccionar el método de pago, redacta tu mensaje y encríptalo para asegurar
+		  que nadie sepa su contenido. ¡Los pagos con especia tienen un importante descuento!</p>
+		</section>
+
+	</section>
+	
+	<section class="titulo-metodo">	
+		Seleccione método de pago:
+
+	</section>
+
+
+	<section class="metodo-pago"> 
+
+		
+		<INPUT type="radio" name="metodo" value="1">ADAMANTIUM
+		<INPUT type="radio" name="metodo" value="2">ESPECIA (20% OFF)
+		<INPUT type="radio" name="metodo" value="3">SHIBA INU
+		<INPUT type="radio" name="metodo" value="4">KRYPTONITA
+
+		
+	</section>
+
+	<section class="reglas-titulo">
+		
+		Encriptado/Desencriptado
+
+	</section>
+
+	<section class="reglas">
+		
+		Aquí debajo, en el cuadro izquierdo podrás ingresar tu mensaje, 
+		y al presionar encriptar o desencriptar el resultado se verá reflejado
+		en el cuadro del lado derecho. No olvides estas simples reglas: 
+		sólo está permitido el ingreso de letras minúsculas y sin acentos.
+
+	</section>
+
+
+	<section class="area-trabajo">
+
+		<section class="area-ingreso box">
+
+			<label id="label">Área de encriptado/desencriptado:</label>
+			<textarea name="textoIngreso" id="texto1" placeholder="Ingrese aquí su texto"></textarea>
+			<button class="btn" onclick="encriptar();">Encriptar</button>
+			<button class="btn" onclick="desencriptar();">Desencriptar</button>
+	    	<p>* Recuerde sólo ingresar letras minúsculas y sin acentos.</p>
+
+		</section>
+
+			<img id="encrip" src="3.jpg">
+
+		<section class="area-lectura box">
+		
+			<label id="label2">Mensaje:</label>
+			<textarea name="textoLectura" id="texto2" readonly></textarea>
+			<input class="btn" type="submit" value="Copiar" id="btn-copy" onClick="copiar();">
+			<button class="btn" onclick="limpiar();">Borrar información</button>
+
+
+		</section>
+
+	</section>
+
+	<hr>
+
+	<footer>	
+
+		<p>Desarrollado por Oscar Capdevila</p>
+
+		<a href="mailto:capde22@gmail.com">Contáctame vía mail</a>
+		<br><br>
+		<a href="https://www.linkedin.com/in/oscar-capdevila-64aa3815a/">LinkedIn</a>
+		<br><br>
+		<a href="https://github.com/CapdeO">GitHub</a>
+
+
+	</footer>
+
+</body>
+</html>

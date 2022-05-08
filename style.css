@@ -1,0 +1,172 @@
+html {
+  background-color: #ABB2B9;
+}
+
+header {
+  background-color: #566573;
+}
+
+.caja {
+  height: 150px;
+}
+
+#logo {
+  position: absolute;
+  top: 55px;
+  left: 420px;
+}
+
+.titulo-principal {
+  font-family: Tahoma, Verdana, sans-serif;
+  position: absolute;
+  top: 25px;
+  left: 485px;
+  font-size: 1cm;
+}
+
+.historia {
+  font-size: 15pt;
+  margin: 15px;
+  text-align: justify;
+  font-family: Tahoma, Verdana, sans-serif;
+  letter-spacing: 0.8pt;
+}
+
+.parte1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 150px;
+  text-indent: 1.5em;
+  align-items: center;
+}
+
+.parte2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 150px;
+  margin-right: 190px;
+  text-indent: 1.5em;
+  align-items: center;
+}
+
+.area-trabajo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+
+
+.box {
+  width: 350px;
+  height: 400px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 0px 10px 10px #000000;
+  background-color: #CCCCCC;
+  border-radius: 5px;
+}
+
+label {
+  
+  font-family: Tahoma, Verdana, sans-serif;
+  padding: 15px;
+  font-weight: bold;
+}
+textarea {
+  resize: none;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 1em;
+  width: 285px;
+  height: 220px;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.btn {
+  font-family: Tahoma, Verdana, sans-serif;
+  border: 0;
+  color: black;
+  font-weight: bold;
+  background-color: #888999;
+  padding: 10px;
+  margin: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  border-radius: 7px;
+}
+
+p {
+  margin-left: 15px;
+}
+
+#capitan-polaris {
+  margin-left: 70px;
+  margin-right: 240px;
+  box-shadow: 0px 10px 10px #000000;
+}
+
+#teniente {
+  margin-left: 40px;
+  margin-right: 60px;
+  box-shadow: 0px 10px 10px #000000;
+}
+
+.titulo-metodo {
+  background-color: #566573;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 16pt;
+  height: 50px;
+  align-items: center;
+}
+
+.metodo-pago {
+  display: flex;
+  margin: 50px;
+  justify-content: space-between;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.reglas-titulo {
+  background-color: #566573;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 16pt;
+  height: 50px;
+  align-items: center;
+}
+
+.reglas {
+  font-size: 15pt;
+  font-family: Tahoma, Verdana, sans-serif;
+  margin: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+#encrip {
+  width: 427px;
+  height: 258px;
+  margin-top: 68px;
+  box-shadow: 0px 10px 10px #000000;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bold;
+}
