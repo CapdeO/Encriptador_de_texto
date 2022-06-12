@@ -1,5 +1,7 @@
-html {
+body {
   background-color: #ABB2B9;
+  width: 950px;
+  margin: auto;
 }
 
 header {
@@ -8,45 +10,40 @@ header {
 
 .caja {
   height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #logo {
-  position: absolute;
-  top: 55px;
-  left: 420px;
+  position: relative;
+  left: -10%;
 }
 
 .titulo-principal {
   font-family: Tahoma, Verdana, sans-serif;
-  position: absolute;
-  top: 25px;
-  left: 485px;
   font-size: 1cm;
 }
 
 .historia {
   font-size: 15pt;
-  margin: 15px;
   text-align: justify;
   font-family: Tahoma, Verdana, sans-serif;
   letter-spacing: 0.8pt;
 }
 
 .parte1 {
-  margin-top: 50px;
+  margin: 2em 0 0 2em;
   display: flex;
-  justify-content: space-evenly;
-  margin-left: 150px;
-  text-indent: 1.5em;
+  justify-content: space-between;
   align-items: center;
+  text-indent: 1.5em;
 }
 
 .parte2 {
-  margin-top: 50px;
+  margin: 0 2em 0 0;
   display: flex;
-  justify-content: space-evenly;
-  margin-left: 150px;
-  margin-right: 190px;
+  justify-content: space-between;
   text-indent: 1.5em;
   align-items: center;
 }
@@ -105,14 +102,12 @@ p {
 }
 
 #capitan-polaris {
-  margin-left: 70px;
-  margin-right: 240px;
+  margin: 0 3em;
   box-shadow: 0px 10px 10px #000000;
 }
 
 #teniente {
-  margin-left: 40px;
-  margin-right: 60px;
+  margin: 3em 2em;
   box-shadow: 0px 10px 10px #000000;
 }
 
@@ -132,8 +127,7 @@ p {
   display: flex;
   margin: 50px;
   justify-content: space-between;
-  margin-left: 350px;
-  margin-right: 350px;
+  align-items: center;
 }
 
 .reglas-titulo {
@@ -149,19 +143,25 @@ p {
 }
 
 .reglas {
+  display: flex;
   font-size: 15pt;
   font-family: Tahoma, Verdana, sans-serif;
-  margin: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
-  text-align: center;
+  margin: 2em 2em 0 0;
+  justify-content: space-between;
+  text-align: justify;
+  letter-spacing: 0.8pt;
+  align-items: center;
 }
 
 #encrip {
+  margin: 1em 2em;
   width: 427px;
   height: 258px;
-  margin-top: 68px;
   box-shadow: 0px 10px 10px #000000;
+}
+
+.reglasTexto {
+  max-height: 18em;
 }
 
 footer {
