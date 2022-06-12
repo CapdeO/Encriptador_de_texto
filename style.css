@@ -1,6 +1,6 @@
 body {
   background-color: #ABB2B9;
-  width: 950px;
+  width: 940px;
   margin: auto;
 }
 
@@ -126,7 +126,7 @@ p {
 .metodo-pago {
   display: flex;
   margin: 50px;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
