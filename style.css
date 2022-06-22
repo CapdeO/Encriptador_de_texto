@@ -39,6 +39,9 @@ header {
   align-items: center;
   text-indent: 1.5em;
 }
+.parte1 p{
+  max-height: 17em;
+}
 
 .parte2 {
   margin: 0 2em 0 0;
@@ -48,13 +51,15 @@ header {
   align-items: center;
 }
 
+.parte2 p {
+  max-height: 19em;
+}
+
 .area-trabajo {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
 }
-
-
 
 .box {
   width: 350px;
